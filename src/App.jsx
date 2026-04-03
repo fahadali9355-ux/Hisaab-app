@@ -3,7 +3,7 @@ import { getEntries, addEntry, deleteEntry } from './dbServices';
 import { AuthContext } from './AuthContext';
 import { signOut } from 'firebase/auth';
 import { auth } from './firebase';
-import Login from './Login';
+import Login from './Login.jsx';
 
 // Predefined Quick Remarks
 const QUICK_REMARKS = ["Raashan", "Doodh Wala", "Bijli Bill", "Maasi", "Udhaar", "Gas Bill"];
