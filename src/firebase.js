@@ -9,14 +9,15 @@ import { getAuth } from "firebase/auth";
 // TODO: Replace these placeholders with your actual Firebase config values
 // Ye saari details aapko Firebase console > Project Settings > General > "Your apps" section mei milegi
 const firebaseConfig = {
-  apiKey: "AIzaSyCWgUhTdFiuuj0PmqnnYjl6eJADfeaWZog",
-  authDomain: "hisaab-app-2ecd7.firebaseapp.com",
-  projectId: "hisaab-app-2ecd7",
-  storageBucket: "hisaab-app-2ecd7.firebasestorage.app",
-  messagingSenderId: "421319735101",
-  appId: "1:421319735101:web:fb8c063304b80139e63754",
-  measurementId: "G-2EQZJCD71R"
+  apiKey: "AIzaSyCftbOoXABypO-HzXqa1k06m1Pkm_eqo1k",
+  authDomain: "hisaab-app2.firebaseapp.com",
+  projectId: "hisaab-app2",
+  storageBucket: "hisaab-app2.firebasestorage.app",
+  messagingSenderId: "224939184411",
+  appId: "1:224939184411:web:2f15805e91417fbc5843be",
+  measurementId: "G-5G08LZRLX8"
 };
+
 const app = initializeApp(firebaseConfig);
 
 // Initialize Firestore with offline persistence enabled

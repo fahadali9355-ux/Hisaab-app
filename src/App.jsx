@@ -179,7 +179,7 @@ function App() {
           
           <div className="text-gray-500 text-sm mt-3 flex justify-around">
             <span>laina: <span className="text-green-600 font-bold">{totalCredit}</span></span>
-            <span>daina: <span className="text-red-500 font-bold">{totalDebit}</span></span>
+            <span>daina/dediya: <span className="text-red-500 font-bold">{totalDebit}</span></span>
           </div>
 
           <div className="mt-4 pt-4 border-t border-gray-200">
@@ -275,7 +275,7 @@ function App() {
                   onClick={() => setFormData({...formData, type: 'debit'})}
                   className={`flex-1 py-4 text-xl font-bold ${formData.type === 'debit' ? 'bg-red-600 text-white' : 'bg-gray-100 text-gray-600'}`}
                 >
-                  daina kitna hain (-)
+                  daina/dediya kitna hain (-)
                 </button>
               </div>
 
