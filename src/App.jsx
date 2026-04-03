@@ -178,8 +178,8 @@ function App() {
           )}
           
           <div className="text-gray-500 text-sm mt-3 flex justify-around">
-            <span>laina: <span className="text-green-600 font-bold">{totalCredit}</span></span>
-            <span>daina/dediya: <span className="text-red-500 font-bold">{totalDebit}</span></span>
+            <span>Jama: <span className="text-green-600 font-bold">{totalCredit}</span></span>
+            <span>Nikaale: <span className="text-red-500 font-bold">{totalDebit}</span></span>
           </div>
 
           <div className="mt-4 pt-4 border-t border-gray-200">
@@ -187,7 +187,7 @@ function App() {
               onClick={shareViaWhatsApp}
               className="bg-green-500 text-white w-full py-3 rounded-lg text-lg font-bold shadow flex justify-center items-center gap-2 hover:bg-green-600"
             >
-              WhatsApp Par Hisaab Bhejain
+              WhatsApp Par Hisaab Bhejein
             </button>
           </div>
         </div>
@@ -222,9 +222,9 @@ function App() {
               </div>
               <div className="text-right flex flex-col items-end pl-2">
                 {entry.credit ? (
-                  <p className="text-3xl font-bold text-green-600">{entry.credit} <span className="text-sm block leading-none font-normal">laina</span></p>
+                  <p className="text-3xl font-bold text-green-600">{entry.credit} <span className="text-sm block leading-none font-normal">Jama</span></p>
                 ) : (
-                  <p className="text-3xl font-bold text-red-600">{entry.debit} <span className="text-sm block leading-none font-normal">daina</span></p>
+                  <p className="text-3xl font-bold text-red-600">{entry.debit} <span className="text-sm block leading-none font-normal">Nikaale</span></p>
                 )}
                 
                 <button 
@@ -268,14 +268,14 @@ function App() {
                   onClick={() => setFormData({...formData, type: 'credit'})}
                   className={`flex-1 py-4 text-xl font-bold ${formData.type === 'credit' ? 'bg-green-600 text-white' : 'bg-gray-100 text-gray-600'}`}
                 >
-                  laina kitna hain (+)
+                  Jama Kiye (+)
                 </button>
                 <button 
                   type="button"
                   onClick={() => setFormData({...formData, type: 'debit'})}
                   className={`flex-1 py-4 text-xl font-bold ${formData.type === 'debit' ? 'bg-red-600 text-white' : 'bg-gray-100 text-gray-600'}`}
                 >
-                  daina/dediya kitna hain (-)
+                  Nikaale (-)
                 </button>
               </div>
 
